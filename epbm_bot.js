@@ -24,3 +24,10 @@ function hackEPBM(jumlah_dosen, kesan){
 		}
 	}
 }
+
+/*kesan:
+1 Sangat Tidak Setuju atau Tidak Setuju
+2 Tidak Setuju atau Setuju
+3 Setuju atau Sangat Setuju
+*/
+//hackEPBM(jumlah_dosen,kesan)
