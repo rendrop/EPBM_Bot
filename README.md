@@ -17,7 +17,8 @@ How to use ?
 * Open javascript console, Chrome (ctrl+shift+j), Firefox (ctrl+shift+k)
 * Copy this code 
 
-```function hackEPBM(jumlah_dosen, kesan){
+```
+function hackEPBM(jumlah_dosen, kesan){
 	mi = kesan
 	ma = kesan + 1
 	for(i=1;i<=10;i++){
