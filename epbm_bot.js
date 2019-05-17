@@ -20,7 +20,9 @@ function hackEPBM(jumlah_dosen, kesan){
 			choose = Math.floor(Math.random() * (ma - mi + 1)) + mi
 			target = "#JawabanDosen_"+i+j+formattedNumber+choose
 			$(target).click();
-			$("#Pernyataan").prop("checked", true)
+			$("#Pernyataan").prop("checked", true);
+			$("#mbuh").removeClass("alert alert-danger");
+			$("#mbuh").addClass("alert alert-success");
 		}
 	}
 }
