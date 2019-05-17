@@ -15,7 +15,8 @@ How to use ?
 * Login into EPBM, https://simak.ipb.ac.id/EPBMOnline/EPBM.
 * Choose course.
 * Open javascript console, Chrome (ctrl+shift+j), Firefox (ctrl+shift+k)
-* Copy the code from the JS (If you're a vocational student, use the "D3" script. 
+* Copy the code from the JS (If you're a vocational student, use the "D3" script) 
+* The "lazy" script is for those who wants to skip the counting part. It will rate 100 lecturers at most and will always choose "Setuju atau Sangat Setuju" randomly
 * and paste to console
 * count number of *dosen*/lecturers
 * rate them ! (1,2,3)
