@@ -3,19 +3,19 @@ function hackEPBM(jumlah_dosen, kesan){
 	ma = kesan + 1
 	for(i=1;i<=10;i++){
 		choose = Math.floor(Math.random() * (ma - mi + 1)) + mi
-		formattedNumber = ("7" + i).slice(-2)
+		formattedNumber = ("5" + i).slice(-2)
 		if(i==10){
-			formattedNumber = ("80")
+			formattedNumber = ("60")
 		}
-		target = "#JawabanMK_15"+formattedNumber+choose
+		target = "#JawabanMK_16"+formattedNumber+choose
 		$(target).click();
 	}
 	// isi form dosen
 	for(i=1;i<=jumlah_dosen;i++){
 		for(j=1;j<=10;j++){
-			formattedNumber = ("162" + j)
+			formattedNumber = ("170" + j)
 		if(j==10){
-			formattedNumber = ("1630")
+			formattedNumber = ("1710")
 }
 			choose = Math.floor(Math.random() * (ma - mi + 1)) + mi
 			target = "#JawabanDosen_"+i+j+formattedNumber+choose
@@ -26,5 +26,6 @@ function hackEPBM(jumlah_dosen, kesan){
 		}
 	}
 }
+
 
 hackEPBM(100,3)
