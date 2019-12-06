@@ -28,4 +28,5 @@ function hackEPBM(jumlah_dosen, kesan){
 }
 
 
-hackEPBM(100,3)
+hackEPBM(100,3);
+$("save").click();
